@@ -12,5 +12,16 @@ int main(void)
 
     while(true)
     {
+
+        // if Locked
+            // check for combo: sets to unlocked, resets timeout
+        // if Unlocked
+            // turn on ISR(s) for columns
+            // while not timed out
+            // turn off ISR(s) for columns
+
+
+
+
     }
 }

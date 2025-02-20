@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="909" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="561" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -13,7 +13,7 @@
         <mxCell id="32D4l5AU0OlwGAZeyvim-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-1" target="32D4l5AU0OlwGAZeyvim-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="32D4l5AU0OlwGAZeyvim-1" value="init:&lt;div&gt;1-4 input&lt;/div&gt;&lt;div&gt;2-8 output&lt;/div&gt;&lt;div&gt;set 1-4 HI&lt;/div&gt;&lt;div&gt;Locked = 1&lt;/div&gt;&lt;div&gt;LEDs 1-8 off&lt;/div&gt;&lt;div&gt;Setup Base PWM&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;align=left;size=0.15384615384615385;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="32D4l5AU0OlwGAZeyvim-1" value="init:&lt;div&gt;1-4 input&lt;/div&gt;&lt;div&gt;2-8 output&lt;/div&gt;&lt;div&gt;set 1-4 HI&lt;/div&gt;&lt;div&gt;Locked = 1&lt;/div&gt;&lt;div&gt;LEDs 0:7 off&lt;/div&gt;&lt;div&gt;Setup Base PWM&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;align=left;size=0.15384615384615385;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="40" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="32D4l5AU0OlwGAZeyvim-7" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-3" target="32D4l5AU0OlwGAZeyvim-6">
@@ -118,10 +118,13 @@
         <mxCell id="32D4l5AU0OlwGAZeyvim-27" value="Change&amp;nbsp;&lt;div&gt;PWM&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="50" y="418.75" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="32D4l5AU0OlwGAZeyvim-34" value="LEDs = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="270" width="60" height="25" as="geometry" />
+        <mxCell id="32D4l5AU0OlwGAZeyvim-34" value="LED(0:7) = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="270" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="32D4l5AU0OlwGAZeyvim-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.401;entryY=0.955;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-34" target="32D4l5AU0OlwGAZeyvim-6">
+        <mxCell id="32D4l5AU0OlwGAZeyvim-37" value="Paid&amp;nbsp;&lt;div&gt;Actor&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="95" y="285" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.412;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-34" target="32D4l5AU0OlwGAZeyvim-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
