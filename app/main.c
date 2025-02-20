@@ -1,6 +1,19 @@
 #include <msp430.h>
 #include <stdbool.h>
 
+/**
+ *  PROJECT 3
+ *
+ *  Aaron McLean & Alex Deadmond    EELE 465
+ *
+ *  Last Updated: 02/20/2025
+ *
+ *  A program that takes inputs from a membrain 
+ *  keypad and detemines a locked or unlocked state, 
+ *  and outputs state and patterns on an LED strip.
+ */
+
+
 int main(void)
 {
     // Stop watchdog timer
