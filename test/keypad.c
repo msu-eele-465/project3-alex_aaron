@@ -13,10 +13,10 @@ int main(void)
     P1DIR |= BIT3;
 
     // Set up Ports 1.4-1.7 as inputs (rows)
-    P1DIR &= BIT4;
-    P1DIR &= BIT5;
-    P1DIR &= BIT6;
-    P1DIR &= BIT7;
+    P1DIR &= ~BIT4;
+    P1DIR &= ~BIT5;
+    P1DIR &= ~BIT6;
+    P1DIR &= ~BIT7;
 
     // Set outputs as high to start
     P1OUT |= BIT4;
@@ -30,12 +30,21 @@ int main(void)
     P1REN |= BIT6;
     P1REN |= BIT7;
 
-    
     // Disable the GPIO power-on default high-impedance mdoe to activate
     // previously configure port settings
     PM5CTL0 &= ~LOCKLPM5;
 
-    while(true)
+    while(1)
     {
     }
+
+    return(0);
 }
+
+// -- Interupt Service Routines -------------------------------
+#pragma vector = PORT1_VECTOR
+__interrupt void ISR_Port1_S1(void)
+{
+    P1IFG &= BIT0;
+}
+__interrupt void ISR_Port1_S2(void)
