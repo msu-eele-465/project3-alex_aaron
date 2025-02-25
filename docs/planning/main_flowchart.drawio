@@ -1,0 +1,133 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="561" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="32D4l5AU0OlwGAZeyvim-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-0" target="32D4l5AU0OlwGAZeyvim-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-0" value="main" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="65" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-1" target="32D4l5AU0OlwGAZeyvim-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-1" value="init:&lt;div&gt;1-4 input&lt;/div&gt;&lt;div&gt;2-8 output&lt;/div&gt;&lt;div&gt;set 1-4 HI&lt;/div&gt;&lt;div&gt;Locked = 1&lt;/div&gt;&lt;div&gt;LEDs 0:7 off&lt;/div&gt;&lt;div&gt;Setup Base PWM&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;align=left;size=0.15384615384615385;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="40" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-7" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-3" target="32D4l5AU0OlwGAZeyvim-6">
+          <mxGeometry x="0.0108" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-3" target="32D4l5AU0OlwGAZeyvim-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-13" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="32D4l5AU0OlwGAZeyvim-12">
+          <mxGeometry x="-0.1376" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-3" value="locked?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="185" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-15" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-4" target="32D4l5AU0OlwGAZeyvim-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-4" target="32D4l5AU0OlwGAZeyvim-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-19" value="no&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="32D4l5AU0OlwGAZeyvim-18">
+          <mxGeometry x="0.625" y="-1" relative="1" as="geometry">
+            <mxPoint x="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-4" value="timeout?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="295" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="165" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="165" />
+              <mxPoint x="311" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-6" value="&lt;div&gt;Check for&lt;/div&gt;&lt;div&gt;Lock Combo&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-14" target="32D4l5AU0OlwGAZeyvim-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-14" value="locked = 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="320" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-22" target="32D4l5AU0OlwGAZeyvim-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="450" />
+              <mxPoint x="490" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-24" value="Null" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="32D4l5AU0OlwGAZeyvim-23">
+          <mxGeometry x="-0.9161" y="-2" relative="1" as="geometry">
+            <mxPoint x="-7" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-22" target="32D4l5AU0OlwGAZeyvim-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-29" value="Col 4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="32D4l5AU0OlwGAZeyvim-28">
+          <mxGeometry x="0.2875" y="1" relative="1" as="geometry">
+            <mxPoint x="15" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-22" target="32D4l5AU0OlwGAZeyvim-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-31" value="Col 1-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="32D4l5AU0OlwGAZeyvim-30">
+          <mxGeometry x="-0.1361" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-22" value="Check&lt;div&gt;Column&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="408.75" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-26" value="Change&lt;div&gt;Pattern&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="533.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="620" />
+              <mxPoint x="490" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-27" value="Change&amp;nbsp;&lt;div&gt;PWM&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="418.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-34" value="LED(0:7) = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="270" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-37" value="Paid&amp;nbsp;&lt;div&gt;Actor&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="95" y="285" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32D4l5AU0OlwGAZeyvim-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.412;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="32D4l5AU0OlwGAZeyvim-34" target="32D4l5AU0OlwGAZeyvim-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
